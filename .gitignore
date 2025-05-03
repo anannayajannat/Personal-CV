@@ -1,6 +1,0 @@
-# .gitignore
-node_modules
-*.zip
-*.psd
-*.mp4
-out/
