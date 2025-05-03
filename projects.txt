@@ -1,5 +1,5 @@
 1:HL["/Personal-CV/_next/static/css/7240c8757ff2e699.css","style",{"crossOrigin":""}]
-0:["34A2A3xdjxkD10hxJXGB0",[[["",{"children":["projects",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/Personal-CV/_next/static/css/7240c8757ff2e699.css","precedence":"next","crossOrigin":""}]],"$L3"]]]]
+0:["NWQmUJR3zdZcJ9PZjJemD",[[["",{"children":["projects",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/Personal-CV/_next/static/css/7240c8757ff2e699.css","precedence":"next","crossOrigin":""}]],"$L3"]]]]
 4:I[6954,[],""]
 5:I[7264,[],""]
 7:I[8297,[],""]
