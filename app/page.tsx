@@ -20,13 +20,13 @@ export default function Home() {
           <h1 className="text-3xl font-bold">Sanjida Jannat Anannaya</h1>
           <p className="text-lg">Research Assistant</p>
           <a
-            href="https://apurba.com"
+            href="https://iar.ac.in/"
             className="text-blue-500 font-semibold hover:underline block"
           >
-            United International University
+            Institute of Advanced Research
           </a>
           <p className="text-sm text-gray-500">
-            Machine Learning | Quantum Engineering | Software Engineering
+            Quantum Machine Learning | Software Engineering
           </p>
           <p className="text-sm text-gray-500">Dhaka, Bangladesh</p>
           <div className="flex justify-center md:justify-start gap-4 mt-2 text-blue-600 text-xl">
@@ -64,7 +64,12 @@ in a reputed organization.
         <div className="mb-6">
           <h3 className="font-semibold">Research Assistant</h3>
           <p className="text-sm text-gray-600">
-            United International University · 03/2025 - Present · Dhaka, Bangladesh
+            Institute of Advanced Research - <a
+            href="https://ece.northsouth.edu/people/dr-sumaiya-tabassum-nimi/"
+            className="text-blue-500 font-semibold hover:underline block"
+          >
+            Dr. Sumaiya Tabassum Nimi 
+          </a> · 2025 - Present · Dhaka, Bangladesh
           </p>
           <ul className="list-disc ml-5 mt-2 space-y-1">
             <li>Developed a hybrid deep learning pipeline utilizing quantum computing.</li>
@@ -76,7 +81,7 @@ in a reputed organization.
         </div>
 
         <div className="mb-6">
-          <h3 className="font-semibold">Undergraduate Assistant</h3>
+          <h3 className="font-semibold">Undergraduate Teaching Assistant</h3>
           <p className="text-sm text-gray-600">
             United International University · Dhaka, Bangladesh
           </p>
@@ -108,17 +113,38 @@ in a reputed organization.
         </div>
       </section>
 
-      {/* Education */}
-      <section className="mt-12">
-        <h2 className="text-xl font-semibold mb-4">🎓 EDUCATION</h2>
-        <div>
-          <h3 className="font-semibold">B.Sc. in Computer Science and Engineering</h3>
-          <p className="text-sm text-gray-600">
-            United International University · 2020 - 2024 · Dhaka, Bangladesh
-          </p>
-          <p className="text-sm">CGPA: 3.71/4.00 · Major: Data Science, Software Engineering. </p>
-        </div>
-      </section>
+    {/* Education */}
+    <section className="mt-12">
+      <h2 className="text-xl font-semibold mb-4">🎓 EDUCATION</h2>
+
+      {/* B.Sc. */}
+      <div className="mb-4">
+        <h3 className="font-semibold">B.Sc. in Computer Science and Engineering</h3>
+        <p className="text-sm text-gray-600">
+          United International University · 2020 - 2024 · Dhaka, Bangladesh
+        </p>
+        <p className="text-sm">CGPA: 3.71/4.00 · Major: Data Science, Software Engineering.</p>
+      </div>
+
+      {/* HSC */}
+      <div className="mb-4">
+        <h3 className="font-semibold">Higher Secondary Certificate (HSC)</h3>
+        <p className="text-sm text-gray-600">
+          Barguna Govt. College · 2016 - 2018 · Barguna, Barisal, Bangladesh
+        </p>
+        <p className="text-sm">GPA: 5.00/5.00</p>
+      </div>
+
+      {/* SSC */}
+      <div>
+        <h3 className="font-semibold">Secondary School Certificate (SSC)</h3>
+        <p className="text-sm text-gray-600">
+          Barguna Govt. Girls’ High School · 2014 - 2015 · Barguna, Barisal, Bangladesh
+        </p>
+        <p className="text-sm">GPA: 5.00/5.00</p>
+      </div>
+    </section>
+
 
 
 
@@ -177,6 +203,50 @@ auth, centralized logging, and scalable service orchestration.
     >
      <FaGithub/>
     </a>
+  </div>
+  
+  {/* CodeKoro */}
+  <div>
+    <h3 className="text-lg font-semibold">CodeKoro — UIU Competitive Programming Online Judge</h3>
+    <p className="text-sm text-gray-700">2023</p>
+    <p className="text-sm text-gray-600">
+      Built a university-specific competitive programming platform for UIU students, enabling
+      practice, real-time contests, and performance tracking. Features include diverse problem
+      sets, live rankings, and detailed feedback to foster coding skills and employability.
+    </p>
+    <p className="text-xs mt-1 text-gray-500">
+      Tech stack: React.js, Node.js, Django, Git, PostgreSQL, Figma, Trello (Scrum)
+    </p>
+  </div>
+
+  {/* PrintKoro */}
+  <div>
+    <h3 className="text-lg font-semibold">PrintKoro — Smart Self-Service Printing Platform</h3>
+    <p className="text-sm text-gray-700">2023</p>
+    <p className="text-sm text-gray-600">
+      Developed an innovative self-service printing system allowing users to upload and print
+      documents via QR codes without sharing files with third parties. The solution ensures secure
+      file storage, real-time print status, multi-language support, and cashless payment through a
+      mobile app.
+    </p>
+    <p className="text-xs mt-1 text-gray-500">
+      Tech stack: Android SDK, Django, Node.js, Figma, Jira
+    </p>
+  </div>
+
+  {/* Smart Prison System */}
+  <div>
+    <h3 className="text-lg font-semibold">
+      Smart Prison System — Automated Inmate Management Platform
+    </h3>
+    <p className="text-sm text-gray-700">2023</p>
+    <p className="text-sm text-gray-600">
+      Designed a smart system to automate prison operations such as meal distribution, health
+      tracking, work assignments, and visitor control. Integrated Arduino, ESP32, NFC, sensors, and
+      vending mechanisms to enhance security, efficiency, and resource allocation in correctional
+      facilities.
+    </p>
+    <p className="text-xs mt-1 text-gray-500">Tech stack: Arduino, ESP32, NFC, IoT Sensors</p>
   </div>
 
   <div className="mt-2">
@@ -261,6 +331,38 @@ auth, centralized logging, and scalable service orchestration.
     </p>
   </div>
 
+  {/* AGY Launcher */}
+  <div>
+    <h3 className="text-lg font-semibold">
+      AGY Launcher: Designing an Accessible Smartphone Launcher for Elderly Users
+    </h3>
+    <p className="text-sm text-gray-700">Supervised by: Lecturer Tamzid Hossain | Reviewed in CSCW ’2025 | Type: Journal Paper</p>
+    <p className="text-sm text-gray-600">
+      Enhancing usability and independence for elderly users through simplified and intuitive smartphone interfaces.
+    </p>
+    
+    <p className="text-xs mt-1 text-gray-500">
+      Tools: Figma, Miro, User Design Guide, Python, Scikit-Learn, TensorFlow, Transfer Learning
+    </p>
+  </div>
+
+  {/* Mushroom Classification */}
+  <div>
+    <h3 className="text-lg font-semibold">
+      A Novel Deep Learning Approach Towards Classification of Edible, Non-Edible and Poisonous Mushrooms
+    </h3>
+    <p className="text-sm text-gray-700">Supervised by Lecturer Raiyan Rahman |
+     Reviewed in ICCA ’2024 | Type: Conference Paper</p>
+    <p className="text-sm text-gray-600">
+      Developed a deep learning model to accurately classify mushrooms, improving safety and reliability in edible mushroom identification.
+    </p>
+    
+    <p className="text-xs mt-1 text-gray-500">
+      Tools: Figma, Jira, User Design Guide, Python, Scikit-Learn, TensorFlow, Transfer Learning
+    </p>
+  </div>
+
+
   <div className="mt-4">
     <h3 className="text-lg font-semibold">
       Bagging-Based Ensemble Learning for Multiclass Pox Skin Lesion Detection
@@ -281,6 +383,7 @@ auth, centralized logging, and scalable service orchestration.
       "Can I enjoy my hobbies like before?” – A Randomized To-Do App Study
     </h3>
     <p className="text-sm text-gray-700">
+      Supervised by: Dr. Jannatun Noor Mukta & Lecturer Mr. Iftekharul Abedeen | 
       Submitted to CHI LBW 2025
     </p>
     <p className="text-sm text-gray-700">
@@ -288,6 +391,34 @@ auth, centralized logging, and scalable service orchestration.
     </p>
     <p className="text-xs mt-1 text-gray-500">
       Tools: Figma, React Native, User Study Design
+    </p>
+  </div>
+
+  {/* Personalized Food Recommender */}
+  <div>
+    <h3 className="text-lg font-semibold">
+      "Can AI help me with healthy eating?" Designing a Personalized LLM-based Food Recommender System
+    </h3>
+    <p className="text-sm text-gray-700">Supervised by: Dr. Jannatun Noor Mukta & Mr. Iftekharul Abedeen | Reviewd in UIST-2025</p>
+    <p className="text-sm text-gray-600">
+      Leveraging large language models to provide personalized, nutritionally balanced food recommendations based on user preferences and dietary requirements.
+    </p>
+     <p className="text-xs mt-1 text-gray-500">
+      Tools: Python, Hugging Face Transformers, Pandas, Numpy, Streamlit
+    </p>
+  </div>
+
+  {/* Cybersecurity Transformer */}
+  <div>
+    <h3 className="text-lg font-semibold">
+      Leveraging CodeBERT for Automated Detection of Web Vulnerabilities, SQL Injections, and Malicious PDFs: A Transformer-Based Approach for Enhanced Cybersecurity
+    </h3>
+    <p className="text-sm text-gray-700">| Supervised by: Mir Moynuddin Ahmed Shibly | In Progress</p>
+    <p className="text-sm text-gray-600">
+      Developed a transformer-based model to automatically detect security vulnerabilities in web applications and files, enhancing threat prevention and cybersecurity reliability.
+    </p>
+    <p className="text-xs mt-1 text-gray-500">
+      Tools: Python, CodeBERT, Transformers, SQL, PDF parsing libraries
     </p>
   </div>
 
@@ -310,11 +441,11 @@ auth, centralized logging, and scalable service orchestration.
 
       {/* Achievements */}
       <section id="achievements" className="py-16">
-  <h2 className="text-xl font-semibold mb-4">🏆 ACHIEVEMENTS</h2>
+  <h2 className="text-xl font-semibold mb-4">🏆 Award & Honors</h2>
   <ul className="list-disc ml-5 space-y-2">
     <li>Smart Prison — 1st Runner-up, UIU CSE Project Show (Electronics Lab Project), Nov 2023</li>
     <li>PrintKoro — 2nd Runner-up, UIU CSE Project Show (System Analysis and Design Lab), July 2023</li>
-    <li>50% & 100% Scholarship - UIU Scholarship Award Program, Spring 2020 - Fall 2024 </li>
+    <li>25%, 50% & 100% Scholarship - UIU Scholarship Award Program, Spring 2020 - Fall 2024 </li>
     <li>General & Talentpool ScholarShip - SSC & HSC - Board Scholarship Program</li>
     
   </ul>
@@ -326,7 +457,7 @@ auth, centralized logging, and scalable service orchestration.
   <h2 className="text-xl font-semibold mb-4">📄 DOWNLOAD MY CV</h2>
   <div className="flex gap-x-4">
     <a
-      href="\GeneralCV_SJAna.pdf"
+      href="\CV_SJAnannaya.pdf"
       download
       className="px-4 py-2 bg-purple-100/20 text-blue-800 rounded border border-blue-300 hover:bg-blue-600 hover:text-white transition-colors duration-300"
     >
